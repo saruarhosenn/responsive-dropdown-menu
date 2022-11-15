@@ -98,6 +98,7 @@ body.scrolling {
   height: 1rem;
   width: 1rem;
   margin-left: 0.5rem;
+  z-index: -1;
 }
 
 .navbar-area .menu > .menu-item > a .expand::before,
