@@ -316,6 +316,10 @@ body.scrolling {
   .navbar-area .menu > .menu-item:first-child > a {
     border-top: 1px solid #e8e3e3;
   }
+  
+  .navbar-area .menu > .menu-item > a .expand {
+    margin-left: 0;
+  }  
 
   .navbar-area .menu > .menu-item-has-children:hover > a .expand::after {
     -webkit-transform: translate(-50%, -50%) rotate(-90deg);
